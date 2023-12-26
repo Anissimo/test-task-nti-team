@@ -1,0 +1,24 @@
+@import "mixins";
+
+@import "other";
+@import "1920";
+@import "768";
+@import "375";
+@import "320";
+
+// Базовые стили
+body,
+html {
+  font-family: "Graphik LCG";
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
